@@ -740,26 +740,26 @@
   background-color: #7e5d6f;
 }
 
-.dowland {
+.download {
   margin-bottom: 114px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .dowland {
+  .download {
     margin-bottom: 78px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .dowland {
+  .download {
     margin-bottom: 45px;
   }
 }
-.dowland .container {
+.download .container {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
   position: relative;
 }
-.dowland__header {
+.download__header {
   font-family: "Raleway", sans-serif;
   font-size: 30px;
   text-align: center;
@@ -768,19 +768,19 @@
   font-weight: 500;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .dowland__header {
+  .download__header {
     font-size: 24px;
     line-height: 28px;
     margin-bottom: 30px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .dowland__header {
+  .download__header {
     font-size: 18px;
     line-height: 21px;
   }
 }
-.dowland__subtitle {
+.download__subtitle {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -790,20 +790,20 @@
   margin-bottom: 50px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .dowland__subtitle {
+  .download__subtitle {
     font-size: 14px;
     line-height: 16px;
     margin-bottom: 43px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .dowland__subtitle {
+  .download__subtitle {
     font-size: 13px;
     line-height: 15px;
     margin-bottom: 11px;
   }
 }
-.dowland__btn {
+.download__btn {
   display: block;
   padding: 26px;
   margin: 0 auto;
@@ -821,7 +821,7 @@
   border: none;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .dowland__btn {
+  .download__btn {
     max-width: 314px;
     font-size: 18px;
     line-height: 22px;
@@ -829,17 +829,17 @@
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .dowland__btn {
+  .download__btn {
     max-width: 279px;
     font-size: 18px;
     line-height: 22px;
     padding: 29px;
   }
 }
-.dowland__btn:hover {
-  background-color: #f71414;
+.download__btn:hover {
+  background-color: #e71414;
 }
-.dowland__btn:active {
+.download__btn:active {
   background: #ff4343;
   box-shadow: 4px 4px 30px #ff4343;
 }
