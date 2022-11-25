@@ -288,6 +288,8 @@
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr;
    margin-bottom: 114px;
+   column-gap: 2px;
+   row-gap: 2px;
       @media (min-width: 768px) and (max-width: 1024px) {
          margin-bottom: 78px;
       }
@@ -297,7 +299,6 @@
       }
    &__wrap {
       position: relative;
-      border: 1px solid $color-white;
    }
    &__wrap::before {
       content: "";
@@ -387,6 +388,10 @@
          justify-content: center;
       }
    }
+   &__column {
+      display: flex;
+      flex-direction: column;
+   }
    &__wrap {
       position: relative;
       margin-bottom: 31px;
@@ -461,6 +466,7 @@
    &__icons {
       display: flex;
       column-gap: 6px;
+      margin-top: auto;
       @media (min-width: 768px) and (max-width: 1024px) {
       column-gap: 5px;
       }

@@ -346,6 +346,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 114px;
+  -moz-column-gap: 2px;
+       column-gap: 2px;
+  row-gap: 2px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .works {
@@ -360,7 +363,6 @@
 }
 .works__wrap {
   position: relative;
-  border: 1px solid #ffffff;
 }
 .works__wrap::before {
   content: "";
@@ -471,6 +473,10 @@
     justify-content: center;
   }
 }
+.team__column {
+  display: flex;
+  flex-direction: column;
+}
 .team__wrap {
   position: relative;
   margin-bottom: 31px;
@@ -563,6 +569,7 @@
   display: flex;
   -moz-column-gap: 6px;
        column-gap: 6px;
+  margin-top: auto;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .team__icons {
