@@ -855,39 +855,21 @@
   box-shadow: 4px 4px 30px #ff4343;
 }
 
-.footer {
-  padding: 71px 0 24px;
+.footer__top {
+  padding: 71px 0 67px;
   background-color: #353C65;
-  position: relative;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-  .footer {
-    padding: 46px 0 14px;
+  .footer__top {
+    padding: 46px 0 41px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .footer {
-    padding: 34px 0 28px;
+  .footer__top {
+    padding: 34px 0 33px;
   }
 }
-.footer::before {
-  content: "";
-  display: block;
-  position: absolute;
-  background: #252B49;
-  width: 100%;
-  height: 90px;
-  top: 100%;
-  left: 0;
-  transform: translateY(-90px);
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .footer::before {
-    height: 60px;
-    transform: translateY(-60px);
-  }
-}
-.footer .container {
+.footer__top .container {
   max-width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
@@ -995,21 +977,29 @@
   }
 }
 .footer__bottom {
-  max-width: 370px;
-  width: 100%;
-  margin: 0 auto;
+  background-color: #252B49;
+  padding: 23px 0 24px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .footer__bottom {
-    max-width: 314px;
+    padding: 14px 0 14px;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .footer__bottom {
-    max-width: 280px;
+    padding: 29px 0 28px;
   }
 }
+.footer__bottom .container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
 .footer__bottom-text {
+  max-width: 370px;
+  width: 100%;
+  margin: 0 auto;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -1018,10 +1008,18 @@
   text-transform: capitalize;
   color: #808080;
 }
-@media (min-width: 320px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer__bottom-text {
+    max-width: 314px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
   .footer__bottom-text {
     font-size: 14px;
     line-height: 16px;
+    max-width: 280px;
   }
 }
 .footer__bottom-white {
